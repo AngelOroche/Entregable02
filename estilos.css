@@ -1,0 +1,290 @@
+header {
+    background-color: white;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+body{
+    background-color: #caf0f8;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+button:hover{
+    transform: scale(1.2);
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.formulario {
+    
+/* Agrega este estilo para cambiar el color de las letras en el formulario */
+    background-color: #fff;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #333; /* Cambia el color del texto (en este caso, a negro) */
+}
+
+h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button#cerrarFormulario {
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+#logo {
+    transition: transform 0.3s;
+    width: 150px; /* Ajusta el tamaño de tu logo */
+}
+header img:hover{
+    transform: scale(1.2);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+        text-decoration: none; /* Quita el subrayado */
+        color: black; /* Cambia el color del texto a negro */
+        display: inline-block;
+    }
+nav ul li a:hover {
+    transform: scale(1.2); /* Aumenta el tamaño al 120% */
+    color: red; /* Cambia el color al pasar el cursor */
+}
+
+.contenido {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.imagen {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+    flex: 1;
+    text-align: center;
+}
+
+.imagen:hover {
+    transform: scale(1.1); 
+}
+
+.imagen img {
+    max-width: 300px;
+    max-height: 1000px;
+}
+
+.informacion {
+    flex: 2;
+    font-family: Arial, sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-left: 2px solid #0096c7;
+    text-align:justify;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.informacion-adicional {
+background-color: #ade8f4;
+padding: 20px;
+border: 1px solid #0096c7;
+border-radius: 5px;
+margin-top: 20px;
+display: flex;
+}
+
+.columna-izquierda,
+.columna-derecha {
+flex: 1;
+padding: 10px;
+font-family: Arial, sans-serif;
+
+}
+
+.columna-izquierda {
+border-right: 1px solid #0096c7;
+}
+ul {
+list-style-type: none;
+}
+
+/* Estilos para los elementos de la lista */
+ul li {
+margin-bottom: 10px;
+}
+
+
+/* PESTAÑA DE SERVICIO */
+
+/* Estilos para el cuerpo de la página */
+.contenido-con-imagen {
+    position: relative;
+    max-width: 1500px; /* Ancho máximo de la imagen */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+/* Estilos para la imagen */
+.imagen2 img {
+    width: 100%;
+    display: block;
+}
+
+/* Estilos para el cuadro de texto encima de la imagen */
+.cuadro-de-texto1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+/* Estilos para las columnas */
+.columna-izquierda1,
+.columna-derecha1 {
+    flex: 1;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.columna-izquierda1 {
+    margin: 0, 0, 0, 200;
+    position: absolute;
+    flex: 1;
+    background: none; /* Sin fondo en la columna izquierda */
+}
+
+/* Estilos para los subtítulos y texto */
+h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    margin: 0;
+}
+
+.logoserv{
+    text-align: center;
+
+}
+.logoserv img{
+    transition: transform 0.5s;
+}
+.logoserv img:hover{
+    transform: scale(1.7);
+}
+
+.youtube {
+    text-align:center ;
+}
+
+ /* Estilos para el cuadro de dos columnas */
+ .cuadro {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.cuadro > div {
+    border: none; /* Sin contorno */
+    background: #ade8f4; /* Sin fondo */
+    padding: 0;
+    text-align:left;
+}
+
+/* Estilos para las imágenes */
+.imga, .imgb, .imgc, .imgd {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+/* estilo para el texto*/
+.text1, .text2, .text3, .text4 h2{
+color: #333;
+}

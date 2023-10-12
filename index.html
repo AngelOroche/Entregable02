@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="Logo.jpg" alt="Logo de la empresa">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="empresa.html">Empresa</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+            </ul>
+        </nav>
+            <button id="mostrarFormulario">Contáctenos</button>
+        
+            <div class="overlay" id="overlay">
+                <div class="formulario">
+                    <h2>Llene el formulario de contacto</h2>
+                    <form action="#" method="post">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <label for="empresa">Nombre de la empresa:</label>
+                        <input type="text" id="empresa" name="empresa" required>
+        
+                        <button type="submit">Enviar</button>
+                    </form>
+                    <button id="cerrarFormulario">Cerrar</button>
+                </div>
+            </div>
+        
+            <script src="script.js"></script>
+
+    </header>
+    <br><br>
+    <div class="contenido">
+        <div class="imagen">
+       <img src="candado.png" alt="seguridad">
+        </div>
+        <div class="informacion">
+            <h4 style="color: #48cae4;">Servicios de Ciberseguridad en Perú</h4>
+            <h1 style="color: #0096c7;">Aseguramos a nuestros clientes la tranquilidad para que puedan enfocarse en su negocio.</h1>
+            <p>Somos una empresa líder en el campo de la ciberseguridad, dedicada a proteger su negocio contra amenazas en línea. Nuestra misión es proporcionar soluciones de seguridad robustas y confiables para mantener sus datos y sistemas seguros.</p>
+        </div>
+    </div>
+    <div class="informacion-adicional">
+        <div class="columna-izquierda">
+            <h3>¿Por qué elegirnos?</h3>
+            <ul>
+                <li>Experiencia</li>
+                <li>Seguridad 24/7</li>
+                <li>Personal capacitado</li>
+                <li>Personalización</li>
+            </ul>
+        </div>
+        <div class="columna-derecha">
+            <h3>Nuestros servicios</h3>
+            <ul>
+                <li>Firewalls y protección de redes</li>
+                <li>Prevención de ataques de malware</li>
+                <li>Gestión de identidad y acceso</li>
+                <li>Pruebas de penetración y evaluación de vulnerabilidades</li>
+                <li>Entrenamiento en conciencia de seguridad</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-links">
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+            <!-- form.123formbuilder.com script begins here -->
+<script type="text/javascript" defer src="https://form.123formbuilder.com/embed/6534205.js" data-role="form" data-default-width="650px"></script>
+<!-- form.123formbuilder.com script ends here -->
+        </div>
+        <p>&copy; 2023 Mi Empresa de Ciberseguridad. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:enio.hugo@hotmail.com?subject=Asunto del correo&body=Hola,%20quiero%20información%20sobre%20sus%20servicios">info@empresa.com</a></p>
+    </footer>
+
+</body>
+</html>

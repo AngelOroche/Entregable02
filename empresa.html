@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+
+
+/* Estilos específicos */
+.titulo-bienvenida {
+    font-size: 48px; /* Tamaño grande de fuente */
+    color: #007BFF; /* Color celeste llamativo */
+    text-align: center; /* Alineación central del texto */
+    font-family: 'Helvetica Neue', sans-serif; /* Fuente elegante (cambia a la fuente deseada) */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    margin-bottom: 20px; /* Espacio inferior para separar el título */
+}
+
+
+h2 {
+    font-size: 32px; /* Tamaño grande para el título */
+    margin-bottom: 10px; /* Espacio inferior para separar el título del párrafo */
+    text-transform: uppercase; /* Texto en mayúsculas */
+}
+
+p {
+    font-size: 18px; /* Tamaño del texto */
+    line-height: 1.5; /* Espacio entre líneas para mejorar la legibilidad */
+}
+
+
+
+
+
+    .mision {
+        background-color: #f7f7f7; /* Fondo gris claro para resaltar el contenido */
+        padding: 20px; /* Espacio alrededor del contenido */
+        border-radius: 5px; /* Bordes redondeados para el contenedor */
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra para el contenedor */
+    }
+    
+    h3 {
+        font-size: 24px; /* Tamaño del título */
+        color: #333; /* Color del título */
+        margin-bottom: 10px; /* Espacio inferior para separar el título del párrafo */
+        text-align: center;
+    }
+    
+    p {
+        font-size: 16px; /* Tamaño del texto */
+        color: #666; /* Color del texto */
+        line-height: 1.5; /* Espacio entre líneas para mejorar la legibilidad */
+    }
+    .servicios {
+        background-color: #f7f7f7; /* Fondo gris claro para resaltar el contenido */
+        padding: 20px; /* Espacio alrededor del contenido */
+        border-radius: 5px; /* Bordes redondeados para el contenedor */
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra para el contenedor */
+    }
+    
+    h4 {
+        font-size: 20px; /* Tamaño del título */
+        color: #333; /* Color del título */
+        margin-bottom: 10px; /* Espacio inferior para separar el título de la lista */
+    }
+    
+
+    
+
+    
+    
+
+    .vision {
+        background-color: #FF6B6B; /* Color coral */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        color: #007BFF; /* Color celeste */
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 28px; /* Tamaño de fuente */
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+    
+    p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    .equipo {
+        background-color: #F2BD57; /* Color coral */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        color: #007BFF; /* Color celeste */
+        text-align: center;
+    }
+    
+    h5 {
+        font-size: 24px; /* Tamaño de fuente */
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+    
+
+
+    
+    .nombre {
+        font-weight: bold; /* Texto en negrita para el nombre */
+        color: #333; /* Color de texto */
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <img id="logo" src="Logo.jpg" alt="Logo de la empresa">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="empresa.html">Empresa</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+            </ul>
+        </nav>
+            <button id="mostrarFormulario">Contáctenos</button>
+        
+            <div class="overlay" id="overlay">
+                <div class="formulario">
+                    <h2>Llene el formulario de contacto</h2>
+                    <form action="#" method="post">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <label for="empresa">Nombre de la empresa:</label>
+                        <input type="text" id="empresa" name="empresa" required>
+        
+                        <button type="submit">Enviar</button>
+                    </form>
+                    <button id="cerrarFormulario">Cerrar</button>
+                </div>
+            </div>
+        
+            <script src="script.js"></script>
+    </header>
+    <body>
+        <h1 class="titulo-bienvenida">Bienvenido a Cibersecurity</h1><br><br>
+        <section>
+            <div class="empresa">
+            <h2>Nuestra Empresa</h2>
+            <p>Somos una empresa dedicada a la solución sobre las diferentes adversidades que nos encontramos en el amplio mundo de la ciberseguridad a través de soluciones con expecialistas en nuestros campos</p>
+            </div>
+            <div class="mision">
+            <h3>Nuestra Misión</h3>
+            <p>Nuestra misión es  Proteger y salvaguardar los activos digitales y la confidencialidad de nuestros clientes, ofreciendo soluciones de ciberseguridad de vanguardia. Nuestra misión es garantizar que las organizaciones puedan operar en un entorno digital seguro, protegiendo su información valiosa contra amenazas cibernéticas, ataques y vulnerabilidades. Nos comprometemos a proporcionar servicios de alta calidad, investigación continua y educación en ciberseguridad para empoderar a nuestros clientes a mantenerse un paso adelante en la lucha contra las amenazas digitales.</p>
+    </div>
+        <div class="vision">
+            <h3>Nuestra Visión</h3>
+            <p>Nuestra visión es ser reconocidos como líderes globales en la industria de la ciberseguridad, impulsando la innovación y la excelencia en la protección digital. Buscamos crear un mundo en línea en el que la seguridad sea la norma y no la excepción, donde la confianza en la tecnología digital sea inquebrantable y donde la ciberseguridad sea accesible para todos. Nuestra visión es continuar desarrollando soluciones de vanguardia que aborden las amenazas emergentes y capacitar a las organizaciones y personas de todo el mundo para navegar con confianza en el entorno digital.</p>
+        </div>
+        </section>
+    
+        <section>
+            <div class="servicios">
+                <h4>Nuestros Servicios</h4>
+            <ul>
+                <li>Firewalls y protección de redes</li>
+                <li>Prevención de ataques de malware</li>
+                <li>Gestión de identidad y acceso</li>
+                <li>Pruebas de penetración y evaluación de vulnerabilidades</li>
+                <li>Entrenamiento en conciencia de seguridad</li>
+            </ul>
+            </div>
+        </section>
+    
+        <section>
+            <div class="equipo">
+                <h5>Nuestro Equipo</h5>
+            <ul>
+                <li>
+                    Angel Andres Oroche Ticlia - Director ejecutivo
+                    <br><img src="Pablo.jpg" width="50px"></li>
+                <li>Jhonny Alexis Colán Durand - Director de Operaciones <br> 
+                    <img src="Tyrone.webp " width="50px"></li>   
+            </ul>
+             </div>
+        </section>
+        <footer>
+            <div class="footer-links">
+                <a href="index.html">Inicio</a>
+                <a href="empresa.html">Productos</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="formulario.html">Contacto</a>
+            </div>
+            <p>&copy; 2023 Mi Empresa de Ciberseguridad. Todos los derechos reservados.</p>
+            <p>Contacto: <a href="mailto:enio.hugo@hotmail.com?subject=Asunto del correo&body=Hola,%20quiero%20información%20sobre%20sus%20servicios">info@empresa.com</a></p>
+        </footer>
+    
+    </body>
+</body>
+</html>
